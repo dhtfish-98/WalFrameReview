@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "walframereview"
+version = "1.0.0"
+description = "Bounded offline evidence review: WalFrameReview"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_LICENSE.txt"]
+dependencies = []
+
+[project.scripts]
+walframereview = "walframereview.core:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

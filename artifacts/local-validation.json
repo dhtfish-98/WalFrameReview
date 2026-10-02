@@ -1,0 +1,14 @@
+{
+  "project": "WalFrameReview",
+  "status": "PASS",
+  "test_count": 14,
+  "wheel": "walframereview-1.0.0-py3-none-any.whl",
+  "wheel_sha256": "c502a92f29a4276575a7d839187fd0e445b4cfc5ab70a315080841d418123fae",
+  "verification": "Local supported and malformed input tests, wheel build, separate install, imported package origin and CLI checks",
+  "reproduction": [
+    "python -m pip install .",
+    "python -m unittest discover -s tests -v",
+    "python -m pip wheel --no-deps --wheel-dir artifacts ."
+  ],
+  "limits": "Point-in-time engineering evidence only; CVP qualification and approval remain OPEN"
+}
