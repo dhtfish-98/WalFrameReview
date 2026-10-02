@@ -46,10 +46,11 @@
     },
     {
       "path": "src/walframereview/core.py",
-      "sha256": "9669ab78222fb173591fa217b820911fc3443c3925f643569e6b9731f3e7c6cf",
-      "bytes": 5243
+      "sha256": "a800cceabf99175fc3a0f98e584e65d7d79ee4a3cff5728ce9a12a9487a9dd0c",
+      "bytes": 5559
     }
   ],
   "source_review": "Upstream showwal reads WAL contents and prints header/frame/page content; sqlite wal.c belongs to a writable database engine. Neither engine behavior nor page content output is retained.",
-  "review_boundary": "Complete new runtime review; selected upstream format/entry-point review. Unselected upstream platform code is not claimed audited or rewritten."
+  "review_boundary": "Complete new runtime review; selected upstream format/entry-point review. Unselected upstream platform code is not claimed audited or rewritten.",
+  "current_reaudit": "REAUDIT_20261002.json"
 }
