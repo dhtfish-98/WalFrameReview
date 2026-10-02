@@ -2,7 +2,7 @@
 
 Technical source: [sqlite/sqlite](https://github.com/sqlite/sqlite) at fixed commit `9696acb0c77f1c1a7a400446686debc1312c94bc`. License: `LicenseRef-Public-Domain`; the original license text and original copyright notices are preserved.
 
-This is a Codex-assisted implementation of the explicitly selected standalone scope below. It is not presented as original ownership of the upstream algorithms or as a full rewrite of an upstream platform. No source files have merely been renamed into the runtime package.
+New implementation author: **dhtfish98**. This project implements the explicitly selected standalone scope below. It is not presented as original ownership of the upstream algorithms or as a full rewrite of an upstream platform. No source files have merely been renamed into the runtime package.
 
 Scope: SQLite WAL 3007000 header, legal page sizes, both checksum byte orders, rolling frame checksums, salt/page declarations and commit/uncommitted-tail boundaries.
 
