@@ -1,0 +1,35 @@
+{
+  "schema": "project-build-layout.v1",
+  "project": "WalFrameReview",
+  "author": "dhtfish98",
+  "kind": "python",
+  "base_public_commit": "502f224889ecf2243154602a66c7fae105881498",
+  "restored_inputs": [
+    {
+      "original": "LICENSE",
+      "stored": "项目文档/LICENSE",
+      "sha256": "de926d6c22d9e061af6158b0f23146ce036bfb2a562f2f406acec2dc4bd8b298"
+    },
+    {
+      "original": "ORIGIN.md",
+      "stored": "项目文档/ORIGIN.md",
+      "sha256": "8a3c6b0140b5c7a584b39e5d58120d13c7900166c35038b601eec371742b5d7d"
+    },
+    {
+      "original": "README.md",
+      "stored": "项目文档/README.md",
+      "sha256": "1a1a1a6c36463fee66fbd18dcfd912d04ad4d7488c928f6266c76646bdf294aa"
+    },
+    {
+      "original": "VALIDATION.md",
+      "stored": "项目文档/VALIDATION.md",
+      "sha256": "0b8743e340cbc4897a3e32638fdb5c051ba21a97860b01a4aa8703aedfa09dfa"
+    },
+    {
+      "original": "examples/README.md",
+      "stored": "项目文档/examples/README.md",
+      "sha256": "dfd29fdab2ad983f9c5222b60d119a4b174783e5e03cae143d76f4972c811b31"
+    }
+  ],
+  "platform_entries": []
+}
