@@ -2,7 +2,7 @@
 
 # WalFrameReview
 
-New implementation author: **dhtfish98**. Current package version: **1.0.2**.
+New implementation author: **dhtfish98**. Current package version: **1.0.3**.
 
 Checks whether exported WAL frames form a complete committed evidence sequence; valid uncommitted tails remain OPEN. This is a standalone format validator, not a SQLite engine rewrite.
 
